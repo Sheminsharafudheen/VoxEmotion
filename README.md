@@ -36,27 +36,11 @@ The system also includes a **login authentication module using MySQL** and a **T
 ---
 
 ##  Project Structure
-+---------------------------------------------+
-|     VoxEmotion-Speech-Emotion-Detection     |
-+---------------------------------------------+
-| login.py                                    |
-|  → Login window with MySQL authentication   |
-|                                             |
-| Admin.py                                    |
-|  → Main GUI for voice recording & emotion   |
-|                                             |
-| database.sql                                |
-|  → MySQL database structure                 |
-|                                             |
-| out.wav                                     |
-|  → Recorded audio file                      |
-|                                             |
-| new.wav                                     |
-|  → Processed audio file                     |
-|                                             |
-| requirements.txt                            |
-|  → Python libraries for the project         |
-|                                             |
-| README.md                                   |
-|  → Project documentation                    |
-+---------------------------------------------+
+VoxEmotion/
+│
+├── login.py # Login window and MySQL authentication
+├── Admin.py # Main application window
+├── out.wav # Recorded audio file
+├── new.wav # Converted audio file
+├── database.sql # MySQL database dump
+└── README.md # Project documentation
